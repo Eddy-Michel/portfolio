@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eddy Michel LEUKEU NKOMBOU | Data Analyst Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-wider text-blue-400">EMLN<span class="text-slate-400">.data</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-blue-400 transition">À propos</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projets Data</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Compétences</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Parcours</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <a href="https://fr.linkedin.com/in/eddy-michel-leukeu-3758a2113" target="_blank" rel="noopener noreferrer" 
+                   class="bg-slate-800 hover:bg-slate-700 text-slate-300 p-2 rounded-lg transition" title="LinkedIn">
+                    <i class="fab fa-linkedin text-lg"></i>
+                </a>
+                <a href="https://eddy-michel.github.io/portfolio/" target="_blank" rel="noopener noreferrer" 
+                   class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-semibold transition flex items-center gap-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="min-h-screen flex items-center justify-center pt-24 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block bg-blue-950/80 border border-blue-800/60 px-4 py-1.5 rounded-full text-blue-400 text-sm font-medium mb-6 shadow-sm">
+                <i class="fas fa-calendar-check mr-2"></i> Stage non rémunéré du 23/11/2026 au 19/04/2027
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6">
+                Eddy Michel <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">LEUKEU NKOMBOU</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 font-light mb-8">
+                DATA ANALYST Junior | SQL • Python • Power BI • Excel
+            </p>
+            <p class="max-w-2xl mx-auto text-slate-400 text-base mb-10 leading-relaxed">
+                Diplômé d'un Master 2 en Génie Logiciel et en formation Data Analyst chez Garage404, j'allie une solide culture de développement web et de bases de données à l'analyse avancée de la Data pour transformer les données en leviers d'action.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-medium shadow-lg shadow-blue-600/30 transition">
+                    Découvrir mes projets
+                </a>
+                <a href="#contact" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-6 py-3 rounded-xl font-medium transition">
+                    Me contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-4 text-center">
+                Projets <span class="text-blue-400">Data Analytics</span>
+            </h2>
+            <p class="text-slate-400 text-center max-w-2xl mx-auto mb-12 text-sm">
+                Réalisations pratiques combinant collecte, nettoyage, requêtage SQL, visualisations interactives et recommandations stratégiques.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Projet Uber -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">Python & Pandas</span>
+                            <span class="text-xs text-slate-500">2026</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Projet Uber : Données en Inde</h3>
+                        <ul class="text-slate-400 text-sm space-y-2 my-4">
+                            <li><i class="fas fa-angle-right text-blue-400 mr-1.5"></i> Importation CSV et création de DataFrames Pandas.</li>
+                            <li><i class="fas fa-angle-right text-blue-400 mr-1.5"></i> Nettoyage rigoureux et traitement des données.</li>
+                            <li><i class="fas fa-angle-right text-blue-400 mr-1.5"></i> Analyse des KPI, problématiques et hypothèses.</li>
+                            <li><i class="fas fa-angle-right text-blue-400 mr-1.5"></i> Visualisations avec Matplotlib & rapport stratégique.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex flex-wrap gap-2">
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Python</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Pandas</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Matplotlib</span>
+                    </div>
+                </div>
+
+                <!-- Projet Olist -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-teal-500/10 text-teal-400 border border-teal-500/20">SQL & PostgreSQL</span>
+                            <span class="text-xs text-slate-500">2026</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Projet Olist : E-commerce Brésil</h3>
+                        <ul class="text-slate-400 text-sm space-y-2 my-4">
+                            <li><i class="fas fa-angle-right text-teal-400 mr-1.5"></i> Analyse approfondie des données E-commerce.</li>
+                            <li><i class="fas fa-angle-right text-teal-400 mr-1.5"></i> Écriture de requêtes SQL complexes.</li>
+                            <li><i class="fas fa-angle-right text-teal-400 mr-1.5"></i> Connexion Python à PostgreSQL.</li>
+                            <li><i class="fas fa-angle-right text-teal-400 mr-1.5"></i> Graphiques Plotly / Matplotlib & recommandations.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex flex-wrap gap-2">
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">PostgreSQL</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">SQL</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Plotly</span>
+                    </div>
+                </div>
+
+                <!-- Projet Région -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500/50 transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/20">Power BI & DAX</span>
+                            <span class="text-xs text-slate-500">2026</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Projet Région : Données régionales</h3>
+                        <ul class="text-slate-400 text-sm space-y-2 my-4">
+                            <li><i class="fas fa-angle-right text-yellow-400 mr-1.5"></i> ETL & transformation Power Query.</li>
+                            <li><i class="fas fa-angle-right text-yellow-400 mr-1.5"></i> Modélisation de données (schéma en étoile).</li>
+                            <li><i class="fas fa-angle-right text-yellow-400 mr-1.5"></i> Création de tableaux de bord interactifs.</li>
+                            <li><i class="fas fa-angle-right text-yellow-400 mr-1.5"></i> Mesures DAX et rapport d'analyse d'impact.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-slate-800/80 flex flex-wrap gap-2">
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Power BI</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">Power Query</span>
+                        <span class="text-xs bg-slate-800 text-slate-300 px-2 py-0.5 rounded">DAX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">
+                Compétences & <span class="text-blue-400">Savoir-être</span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <!-- Data & Viz -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Data Analytics & Viz</h3>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Python (Pandas, Numpy, Matplotlib, Plotly)</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Power BI (DAX, Power Query)</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Excel (VBA, TCD, GCD, Macros)</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>Langage R & Data Visualisation</li>
+                        <li><i class="fas fa-check text-blue-400 mr-2"></i>ETL & Nettoyage de données</li>
+                    </ul>
+                </div>
+
+                <!-- Databases & Tools -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-12 h-12 bg-teal-500/10 text-teal-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Bases de données & Outils</h3>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li><i class="fas fa-check text-teal-400 mr-2"></i>PostgreSQL & MySQL</li>
+                        <li><i class="fas fa-check text-teal-400 mr-2"></i>Visual Studio Code</li>
+                        <li><i class="fas fa-check text-teal-400 mr-2"></i>Outils IA (Codex, ChatGPT)</li>
+                        <li><i class="fas fa-check text-teal-400 mr-2"></i>Git & GitHub</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-12 h-12 bg-purple-500/10 text-purple-400 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Soft Skills</h3>
+                    <ul class="space-y-2 text-slate-400 text-sm">
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>Rigueur & Organisation</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>Curiosité & Esprit d'initiative</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>Adaptabilité & Communication</li>
+                        <li><i class="fas fa-check text-purple-400 mr-2"></i>Français (Courant), Anglais (Technique)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="py-20 bg-slate-950/50">
+        <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <!-- Experiences -->
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                    <i class="fas fa-briefcase text-blue-400"></i> Expériences
+                </h2>
+                <div class="space-y-8 border-l-2 border-slate-800 pl-6">
+                    <div>
+                        <span class="text-xs font-semibold text-blue-400 uppercase">Juil. 2021 – Janv. 2026</span>
+                        <h3 class="text-lg font-bold text-white mt-1">Développeur PHP-PrestaShop (CDI)</h3>
+                        <p class="text-slate-400 text-xs mb-2">NEHOPRO — Roche-la-Molière</p>
+                        <ul class="list-disc list-inside text-slate-300 text-xs space-y-1">
+                            <li>Migration de PrestaShop 1.6 à 1.7.</li>
+                            <li>Développement de modules et scripts PHP.</li>
+                            <li>Référencement SEO/SEA et connexion marketplaces.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span class="text-xs font-semibold text-slate-400 uppercase">Janv. 2021 – Juin 2021</span>
+                        <h3 class="text-lg font-bold text-white mt-1">Projets Personnels & Formations</h3>
+                        <p class="text-slate-400 text-xs mb-2">Clermont-Ferrand (OpenClassrooms, Udemy, Grafikart)</p>
+                    </div>
+
+                    <div>
+                        <span class="text-xs font-semibold text-slate-400 uppercase">Oct. 2018 – Nov. 2020</span>
+                        <h3 class="text-lg font-bold text-white mt-1">Développeur Web (CDD & CDI)</h3>
+                        <p class="text-slate-400 text-xs mb-2">Clermont Informatique International — Clermont-Ferrand</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formations -->
+            <div>
+                <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                    <i class="fas fa-graduation-cap text-teal-400"></i> Formations
+                </h2>
+                <div class="space-y-6">
+                    <div class="bg-slate-900 border border-blue-900/40 p-5 rounded-2xl relative">
+                        <span class="bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full absolute top-4 right-4">En cours</span>
+                        <h3 class="text-base font-bold text-white">Data Analyst</h3>
+                        <p class="text-blue-400 text-xs">Garage404 — Saint-Étienne</p>
+                        <p class="text-slate-500 text-xs mt-1">Année 2026</p>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl">
+                        <h3 class="text-base font-bold text-white">Master 2 Génie Logiciel</h3>
+                        <p class="text-slate-400 text-xs">ISIMA — Clermont-Ferrand</p>
+                        <p class="text-slate-500 text-xs mt-1">Promotion 2018</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Me Contacter</h2>
+            <p class="text-slate-400 mb-10 max-w-lg mx-auto text-sm">
+                Disponible pour un stage non rémunéré de 5 mois du <strong>23/11/2026 au 19/04/2027</strong> à Saint-Étienne et ses alentours.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <a href="mailto:leukeueddymiche@gmail.com" class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-blue-500 transition group">
+                    <i class="fas fa-envelope text-2xl text-blue-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-medium text-sm">Email</h4>
+                    <p class="text-slate-400 text-xs mt-1">leukeueddymiche@gmail.com</p>
+                </a>
+                <a href="tel:0621689099" class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-blue-500 transition group">
+                    <i class="fas fa-phone text-2xl text-blue-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-medium text-sm">Téléphone</h4>
+                    <p class="text-slate-400 text-xs mt-1">06 21 68 90 99</p>
+                </a>
+                <a href="https://fr.linkedin.com/in/eddy-michel-leukeu-3758a2113" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 p-6 rounded-2xl hover:border-blue-500 transition group">
+                    <i class="fab fa-linkedin text-2xl text-blue-400 mb-3 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-medium text-sm">LinkedIn</h4>
+                    <p class="text-slate-400 text-xs mt-1">Profil LinkedIn</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-xs">
+        <p>&copy; 2026 Eddy Michel LEUKEU NKOMBOU. Portfolio mis à jour.</p>
+    </footer>
+
+</body>
+</html>
